@@ -1,4 +1,16 @@
+/**
+ * @author [TonyerX]
+ * @email [tonyerx@163.com]
+ * @create date 2017-10-18 01:53:39
+ * @modify date 2017-10-18 01:53:39
+ * @desc [自动生成订单进度条动画]
+*/
 
+/**
+ * 订单进度条动画方法
+ * @param {number} finishProgress 完成到第几个点
+ * @param {number} aniDuration 整个进度条跑完的动画时长
+ */
 function OrderProgress(finishProgress, aniDuration) {
     /**
      * 圆点部分
